@@ -12,8 +12,8 @@ export const initialState = {
     switch (action.type) {
       case "ADD_TO_BASKET":
       return {
-        ...state,
-        basket: [...state.basket, action.item],
+       ...state,
+        basket: [...state.basket, action.item], 
       };
       default:
         return state;
